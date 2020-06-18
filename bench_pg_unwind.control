@@ -1,0 +1,5 @@
+# timescale_prometheus_extra extension
+comment = 'Benchmark pg unwind handling'
+default_version = '0.1'
+module_pathname = '$libdir/bench_pg_unwind'
+relocatable = true

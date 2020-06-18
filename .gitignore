@@ -1,0 +1,9 @@
+.deps
+src/*.o
+sql/bench_pg_unwind--*.sql
+/target
+/.history
+/.vscode
+/.idea
+.DS_Store
+/*.so
