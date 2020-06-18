@@ -124,7 +124,7 @@ checksum = "19b17cddbe7ec3f8bc800887bab5e717348c95ea2ca0b1bf0837fb964dc67099"
 [[package]]
 name = "pg-guard-function"
 version = "0.1.0"
-source = "git+https://github.com/timescale/timescale-extension-utils?branch=guard+pg#a5d268c2bc96b0e5c51f48773437dacfb4b6adae"
+source = "git+https://github.com/timescale/timescale-extension-utils?branch=guard+pg#16caec3ef85e85f8448665bacaf826913ec6c506"
 dependencies = [
  "quote",
  "syn",
@@ -133,7 +133,7 @@ dependencies = [
 [[package]]
 name = "postgres-headers-rs"
 version = "0.1.0"
-source = "git+https://github.com/timescale/timescale-extension-utils?branch=guard+pg#a5d268c2bc96b0e5c51f48773437dacfb4b6adae"
+source = "git+https://github.com/timescale/timescale-extension-utils?branch=guard+pg#16caec3ef85e85f8448665bacaf826913ec6c506"
 dependencies = [
  "bindgen",
  "pg-guard-function",
@@ -198,7 +198,7 @@ dependencies = [
 [[package]]
 name = "timescale-extension-utils"
 version = "0.1.0"
-source = "git+https://github.com/timescale/timescale-extension-utils?branch=guard+pg#a5d268c2bc96b0e5c51f48773437dacfb4b6adae"
+source = "git+https://github.com/timescale/timescale-extension-utils?branch=guard+pg#16caec3ef85e85f8448665bacaf826913ec6c506"
 dependencies = [
  "postgres-headers-rs",
 ]

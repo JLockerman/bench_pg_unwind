@@ -70,7 +70,8 @@ target/release/libbench_pg_unwind.a: Cargo.toml src/*.rs
 
 clean:
 	rm -f $(OBJS) $(patsubst %.o,%.bc, $(OBJS))
-	cd rust && cargo clean
+	rm bench_pg_unwind.so
+	cargo clean
 
 install: $(EXT_SQL_FILE)
 
